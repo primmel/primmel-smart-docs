@@ -71,6 +71,10 @@ layer the compliance use-case always needed: **the subject**.
     governed projection's fidelity: the three-layer stack (device, full
     twin, Primmel twin), the probe channel, the verdict chain, and the
     twin certificate with its surveillance regime.
+18. [References and relations](18-references-and-relations.md), the
+    unified `ref` construct: one typed triple for every citation and
+    every cross-model relationship; the predicate registry; the legacy
+    spellings it unifies; the edges that stay dedicated.
 
 ## The one-sentence summary
 
