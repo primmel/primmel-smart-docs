@@ -12,7 +12,7 @@
 Before v3's relation wave, a Primmel package said "this element is
 related to that address" five different ways:
 
-```
+```prl
 form … { references { report-format { "urn:…#clause-4.7" } } }   # role-grouped block
 requirement … { source { doc "urn:…" clause "5.5.1" } }          # doc+clause pair
 field … { references { reference { "urn:…#anx-E" } } }           # the same idea, other shape
@@ -36,7 +36,7 @@ mechanical. This chapter generalises the mechanism.
 One line, three parts — a typed triple with the enclosing element as
 the subject:
 
-```
+```prl
 ref report-format "urn:oiml:pub:r:60-3:2021#clause-4.7"
 ref test-procedure "urn:oiml:pub:r:60-2:2021#clause-2.10.2"
 ref derives-from  "urn:oiml:pub:r:60-1:2021#clause-5.5.1"
@@ -56,7 +56,7 @@ ref supersedes    "urn:oiml:pub:r:60:2017"
 
 A `ref` line may carry a note:
 
-```
+```prl
 ref equivalent "urn:oiml:pub:r:76:2006#clause-T.2.2.2" {
   note "The R 76 definition of the analogue data processing device is the one R 60-3, 4.6 cites."
 }
